@@ -1,0 +1,150 @@
+
+**video01**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <div class="alinhamento">
+    <img src="./img/arara.JPEG"width ="100px" height="100px">Passaro Arara<aling="center">
+        <iframe width="256" height="256" src="https://www.youtube.com/embed/3Pdqq2KWw0Q" title="Araras - 10 espécies" frameborder="2" bordercolor ="green"size="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <iframe width="256" height="256" src="https://www.youtube.com/embed/MDM002yPJBM" title="O MUNDO DOS PÁSSAROS 8K ULTRA HD" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <iframe width="256" height="256" src="https://www.youtube.com/embed/l4Odor9BEM8" title="Rio (A Arara Azul) - 3D Filme, lançamento FOX - TRAILER LEGENDADO HD" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <iframe width="256" height="256" src="https://www.youtube.com/embed/ZuWbzy_5qTc" title="Timão e Pumba - Abertura ( Português )" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <a href="https://youtu.be/nc3zWP9JwOk?t=86"width="256" heigth="256"> motos mais rapida da atualidade></href>
+    </aling>
+</body>
+</html>
+
+
+**videos 02**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video width="320"height="320" controls="controls" autoplay="autoplay">
+        <source src="oi.mp4"type="video/mp4">
+        <object data=""width="320"height="320">
+            <embed width="320" height="240" src="oi.mp4">
+        </object>
+    </video>
+</body>
+</html>
+
+
+**video03**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <object width="320" height="320">
+        <param name="movie" value=""/>
+        <embed src=""type="aplication/x-schowareflash"width="320" height="320">
+        
+    </object>
+</body>
+</html>
+
+
+
+
+**video 04**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <video id="video play"width="400" controls="controns">
+        <source src="./videos/moto.mp4.mp4"type="video/mp4"type="video/mp4">
+        <source src="oi.flv"type="video/flv">
+    </video>
+    <div>
+        <script> 
+        var myvideo=document.getElementById("video play");
+        function makeBig(){
+            myvideo.width="1650";
+        }
+        function makeSmall(){
+            myvideo.width="190";
+
+        }
+        function makeNormal(){
+            myvideo.width="910";
+
+        }
+
+        </script>
+        <div style="text-align: left;"></div>
+        <button onclick="makeBig()"> Aumentar</button>
+        <button onclick="makeSmall()"> minimizar </button>
+        <button onclick="makeNormal()"> normal</button>
+        <p></p>
+        </div>
+    </body>
+</html>
+
+
+atividade
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+
+    
+        
+
+<div>
+    <img src="./img/arara.GIF" img id="imagem"width="400" controls="controls"></img>
+    <script> 
+    var myimagem=document.getElementById("imagem");
+    function Normal(){
+        myimagem.width="900";
+
+    }
+        
+    
+    function pequeno(){
+        myimagem.width="300";
+
+    }
+    function Normal(){
+        myimagem.width="600";
+
+    }
+
+    </script>
+    <div style="text-align: center;"></div>
+    <button onclick="grande()"> Aumentar</button>
+    <button onclick="pequeno()"> minimizar </button>
+    <button onclick="Normal()"> normal</button>
+    <p></p>
+    </div>
+    </body>
+
