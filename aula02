@@ -1,0 +1,306 @@
+*index04*
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+    <link rel="stylesheet" type="text/css" href="./css/Style04.css" >
+</head>
+<body>
+    <main>
+        <h1>Slideshow</h1>
+        <img class="slideshow"width="600" height="400">
+    </main>
+<script src="./js/Script04.js"></script>
+
+</body>
+</html>
+
+*Style04*
+body{
+    background-color: rgba(115, 135, 15, 0.625);
+}
+main{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    flex-direction:column;
+}
+h1{
+    text-align: center;
+    color: 	#0000FF;
+}
+img{
+    border-radius: 10px;
+}
+
+
+*script04*
+var slide = document.querySelector('.slideshow');/*query = selciona na biblioteca*/
+var images =[
+    './img/evoluçãoind.PNG',
+    './img/industria40.JPEG',
+    './img/industrial.JPEG',
+    './img/iot.jpeg',
+    './img/smartInd.JPEG',
+    './img/automatização.JPEG',
+    './img/ciclo.jpeg',
+]
+var time = 2000;
+var count=0;
+
+function moveSlideShow(){
+    slide.src = images[count];
+
+    if(count < images.length -1){
+        count++;
+    }else {
+        count =0;
+    }
+    setTimeout("moveSlideShow()", time);
+}
+window.onload = moveSlideShow;
+
+
+
+
+**html05**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="rext/css" href="./css/Style05.css">
+</head>
+<body>
+    <main class="container" >
+        <div class="modal"> 
+            <h2>Titulo</h2>
+            <span>
+                Meu Carro 
+            </span>
+            <button class="btn-close" onclick="onclose()">Fechar</button>
+        </div>        
+    </main>
+    <button class="btn-open" onclick="onOpen()">Abrir</button>
+    <script src="./js/Script05.js"></script>
+</body>
+</html>
+
+**Style05**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="rext/css" href="./css/Style05.css">
+</head>
+<body>
+    <main class="container" >
+        <div class="modal"> 
+            <h2>Titulo</h2>
+            <span>
+                Meu Carro 
+            </span>
+            <button class="btn-close" onclick="onclose()">Fechar</button>
+        </div>        
+    </main>
+    <button class="btn-open" onclick="onOpen()">Abrir</button>
+    <script src="./js/Script05.js"></script>
+</body>
+</html>
+
+**Script05**
+const modal = document.querySelector('.container');
+
+function onOpen(){
+    modal.classList.add('active');
+}
+function onClose(){
+    modal.classList.remove('active');
+
+}
+
+***html06**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com PDF</title>
+    <script src= "https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html12pdf.bundle.min.js" integrity="sha512-GsL1zN"></script>
+    </script>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h1>Um Texto</h1>
+            <h2>Subtitulo do texto</h2>
+            <p> Meu minionsbollzito</p>
+        </div>
+        <button onclick="downloadPdf()">download</button>
+    </main>
+    <script src="./js/Script06.js"></script>
+  
+</body>
+</html>
+
+
+***Style06**
+não tem
+
+
+***script06****
+function downloadPDF(){
+    const item = document.querySelector(".content");
+    var opt = {
+        margin:1,
+        filename: 'file.pdf',
+        html2canvas:{ scale:2},
+        jsPDF:{unit: 'in', format:'letter', orientation:'portrait'}};
+        html12pdf().set(opt).form(item).save();
+    }
+
+
+
+
+***html07***
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro Infatil</title>
+    <link rel="stylesheet" type="text/css" href="./css/Style07.css">
+</head>
+<body>
+    <main>
+        <canvas width="550"height="300"></canvas>
+        <div class="buttons">
+            <input type="color"/>
+            <button onclick="clearBoard()" class="clear">Apagar</button>
+        </div>
+    </main>
+    <script src="./js/Script07.js"></script>
+</body>
+</html>
+
+
+***style07***
+const color =document.querySelector('input');
+let screen = document.querySelector('canvas');
+
+let defaultColor = 'black';
+let canDraw = false;
+let mousex= 0;
+let mousey = 0;
+
+let ctx = screen.getContext('2d');
+
+color. onchange = () => defaultColor = color;
+screen.addEventListener('mousedown',mouseDownEvent);
+screen.addEventListener('mousemove',mousemoveEvent);
+screen.addEventListener('mouseup',mouseupEvent);
+
+function mouseDownEnvent(e){
+    canDraw = true;
+    mousex = e.pagex - screen.offsetleft;
+    mousey = e.pagey -screen.offsettop;
+
+}
+function mouseMoveEvent(e){
+    if (canDraw){
+        canDraw(e.pagex, e. pagey);
+    }
+
+    }
+
+
+
+function mouseUpEvent(){
+    canDraw = false;
+
+}
+function draw(x,y){
+    let pointx = x- screen.offsetLeft;
+    let pointy = y- screen.offsetTop;
+
+    ctx.beginPath();
+    ctx.libewidth =5;
+    ctx.linejoin = "round";
+    ctx.moveTo(mousex, mousey);
+    ctx.lineTo(pointx, pointy);
+    ctx.closePath();
+    ctx.strokeStyle =defaultColor;
+    ctx.strock();
+
+
+    mousex= pointx;
+    mousey=pointy;
+}
+
+function clearBoard(){
+ctx.setTransform(1,0,0,1,0,0)
+ctx.clearrect( ctx.canvas.width, ctx.canvas.height);
+}
+
+***scrypt***
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: greenyellow;
+    
+}
+main{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+carvas{
+    background-color: #90EE90;
+    cursor: crosshair;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+    padding: 10px;
+    background-color: darkmagenta;
+    border-radius: 5px;
+
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.clear{
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 10px;
+    margin-left: 10px;
+    
+}
