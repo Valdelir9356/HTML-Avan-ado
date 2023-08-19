@@ -1,0 +1,183 @@
+***INDEX 01**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cartas</title>
+    <link rel="stylesheet" type="text/css" href="./css/Style01.css">
+</head>
+<body>
+    <div class="kanban">
+        <div class="column">
+            <div class="item" draggable="true"> 01 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div> 
+            <div class="item" draggable="true"> 02 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 03 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div> 
+            <div class="item" draggable="true"> 04 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 05 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div>    
+            <div class="item" draggable="true"> 06 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div> 
+            <div class="item" draggable="true"> 07 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 08 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 09 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div> 
+            <div class="item" draggable="true"> 10 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div> 
+            <div class="item" draggable="true"> 11 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 12 OURO<IMG SRC="img/OURO.PNG" width="25" height="25"></div>    
+          
+        </div>
+    <div class="column">
+        <div class="item" draggable="true"> 01 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"> </div> 
+        <div class="item" draggable="true"> 02 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 03 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 04 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 05 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 06 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 07 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 08 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 09 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 10 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>
+        <div class="item" draggable="true"> 11 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 12 PAUS<IMG SRC="./img/PAUUS.PNG" width="25" height="25"></div>  
+    </div>
+
+    <div class="column">
+        <div class="item" draggable="true"> 01 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div> 
+        <div class="item" draggable="true"> 02 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 03 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 04 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 05 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 06 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 07 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 08 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 09 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 10 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>
+        <div class="item" draggable="true"> 11 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>   
+        <div class="item" draggable="true"> 12 COPAS<IMG SRC="./img/COPAS.JPEG" width="25" height="25"></div>  
+    </div>
+    <div class="column">
+            <div class="item" draggable="true"> 01 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div> 
+            <div class="item" draggable="true"> 02 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 03 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 04 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 05 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 06 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 07 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 08 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 09 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 10 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>
+            <div class="item" draggable="true"> 11 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>   
+            <div class="item" draggable="true"> 12 ESPADAS<IMG SRC="./img/SPADA.PNG" width="25" height="25"></div>  
+    </div>
+    <div class="column">
+        <div class="item" draggable="true"> CORRINGA OURO<IMG SRC="./img/joker-poke.PNG" width="25" height="25"></div>    
+            <div class="item" draggable="true">CORRINGA PAUS"<IMG SRC="./img/joker-poke.PNG" width="25" height="25"> </div>   
+            <div class="item" draggable="true"> CORRINGA "<IMG SRC="./img/joker-poke.PNG" width="25" height="25"></div> 
+            <div class="item" draggable="true"> CORIGA ESPADAS<IMG SRC="./img/joker-poke.PNG" width="25" height="25"></div> 
+    </div>
+   
+    <button class="shuffleButton" id="shuffleButton">Embaralhar cartas</button>
+    
+    <script src="./js/script01.js"></script>
+    
+    </body>
+</html>
+
+
+**|SCRIPT01**
+
+const columns = document.querySelectorAll(".column");
+document.addEventListener("dragstart", (e) => {
+    e.target.classList.add("dragging");
+})
+document.addEventListener("dragend", (e) => {
+    e.target.classList.remove("dragging");
+})
+columns.forEach((item) => {
+    item.addEventListener("dragover", (e) => {
+        const dragging = document.querySelector(".dragging");
+        const applyAfter = getNewPosition(item,e.clienty);
+        if(applyAfter){
+            applyAfter.insertAdjacentElement("afterend", dragging);
+        }else{
+            item.prepend(dragging);
+        }
+    })
+})
+// Função para embaralhar os elementos de um array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
+// Seletor do botão de embaralhamento
+const shuffleButton = document.getElementById("shuffleButton");
+
+// Função a ser executada quando o botão for clicado
+shuffleButton.addEventListener("click", function () {
+    const columns = document.querySelectorAll(".column");
+
+    columns.forEach(column => {
+        const items = column.querySelectorAll(".item");
+        const itemsArray = Array.from(items);
+        shuffleArray(itemsArray);
+        
+        // Remover os cards da coluna
+        itemsArray.forEach(item => column.removeChild(item));
+
+        // Adicionar os cards embaralhados de volta à coluna
+        itemsArray.forEach(item => column.appendChild(item));
+    });
+});
+function getNewPosition(column, positionY){
+    const cards = column.querySelectorAll(".item:not(.dragging)");
+    let result;
+    for(let refer_card of cards){
+        const box = refer_card.getBoundingClientRect();
+        const boxCenterY = box.y + box.height / 2;
+
+        if(positionY >= boxCenterY) result = refer_card;
+    }
+    return result;
+}
+
+
+***STYLE01***
+.kanban{
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.column{
+    padding: 10px;
+    min-width: 200px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.item{
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.dragging{
+    opacity: 0.5;
+}
+
+.shuffleButton{
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+
+
+
